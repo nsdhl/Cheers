@@ -8,7 +8,7 @@
                         <li class="nav-item"><a class="nav-link" href="./about.php">About</a></li>
                         <li class="nav-item">
                             <?php if (isset($_SESSION['username'])) {
-                                echo'<a class="nav-link text-light px-4">' . " " . $_SESSION['username'];'</a>';
+                                echo'<a class="nav-link text-dark px-4">' . " " . $_SESSION['username'];'</a>';
                             } else {
                                 echo '<a class="nav-link" href="./login.php">Login</a></li>';
                             }

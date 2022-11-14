@@ -9,7 +9,7 @@ include '../includes/dbconn.php';
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>KisanArea | Manage Product</title>
+    <title>Cheers | Manage Product</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
@@ -115,7 +115,7 @@ include '../includes/dbconn.php';
         </section>
         <footer class="d-flex justify-content-center mt-5">
             <strong>Copyright &copy; 2022
-                <a href="#">KisanArea</a>.</strong>
+                <a href="#">Cheers</a>.</strong>
         </footer>
     </div>
 

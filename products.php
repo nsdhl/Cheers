@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta name="description" content="" />
 	<meta name="author" content="" />
-	<title>KisanArea | Product Info</title>
+	<title>Cheers | Product Info</title>
 	<!-- Website Logo-->
 	<link rel="icon" type="image/x-icon" href="./image/kisanarea.png" />
 	<!-- Bootstrap icons-->
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			<div class="container my-3">
 				<div class="text-center text-white">
 					<h1 class="display-4 fw-bolder"><?php echo $product['name']; ?></h1>
-					<!-- <p class="lead fw-normal text-white-50 mb-0">Welcome to KisanArea !!!</p> -->
+					<!-- <p class="lead fw-normal text-white-50 mb-0">Welcome to Cheers !!!</p> -->
 				</div>
 			</div>
 		</header>
@@ -92,13 +92,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 										<?php if (isset($_SESSION['username'])) {
 											if ($product['stock'] != 0) {
-												echo '<button type="submit" name="Add_To_cart" class="btn btn navigation text-white">
+												echo '<button type="submit" name="Add_To_cart" class="btn btn-dark   text-white">
 										Add to cart
 									</button>';
 											}
 										} else {
 											echo
-											'<a href="./login.php" name="" class="btn navigation text-white">
+											'<a href="./login.php" name="" class="btn btn-dark text-white">
 										Please Login
 									</a>';
 										}

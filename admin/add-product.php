@@ -152,9 +152,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <option value="Beer">Beer</option>
                 <option value="Wine">Wine</option>
                 <option value="Beverage">Beverage</option>
-                <option value="Whisky">Wine</option>
-                <option value="Rum">Wine</option>
-                <option value="Vodka">Wine</option>
+                <option value="Whisky">Whisky</option>
+                <option value="Rum">Rum</option>
+                <option value="Vodka">Vodka</option>
 
               </select>
             </div>

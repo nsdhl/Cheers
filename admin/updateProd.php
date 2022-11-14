@@ -26,7 +26,7 @@ include '../includes/aside.php'; ?>
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>KisanArea | Update Product</title>
+	<title>Cheers | Update Product</title>
 	<link rel="icon" type="image/x-icon" href="../image/kisanarea.png" />
 
 	<!-- Google Font: Source Sans Pro -->
@@ -133,7 +133,7 @@ include '../includes/aside.php'; ?>
 		</section>
 		<footer class="d-flex justify-content-center mt-5">
 			<strong>Copyright &copy; 2022
-				<a href="#">KisanArea</a>.</strong>
+				<a href="#">Cheers</a>.</strong>
 		</footer>
 
 	</div>

@@ -60,14 +60,14 @@ include './includes/header.php'; ?>
         <div class="container">
             <div class="d-flex justify-content-center align-items-center mt-4">
                 <div class="col-5 d-flex justify-content-center m-auto">
-                    <div class="card mb-5 mt-5 wid text-black border w-100" style="border-radius: 20px;">
+                    <div class="card mb-5 mt-5 wid text-black border w-100 mb-xxl-auto" style="border-radius: 20px;">
                         <div class="card-body p-4 m-0">
                             <span class="d-flex justify-content-end">
                                 <a href="./index.php" class="myA">Go Back</a>
                             </span>
 
                             <form name="myForm" class="font" method="POST" action="./logdb.php">
-                                <img class="d-flex justify-content-center m-auto img-fluid" width="40%" src="./assets/images/logos/strumo.png" />
+                                <img class="d-flex justify-content-center m-auto img-fluid" width="40%" src="./admin/uploads/products/cheers.jpg" />
                                 <h3 class="text-center mb-4 fs-2">Login</h3>
                                 <div class="form-group">
                                     <label for="username">
@@ -84,7 +84,7 @@ include './includes/header.php'; ?>
                                 </div>
 
                                 <div class=" text-white">
-                                    <button name="login" id="login" class="d-flex m-auto justify-content-center btn btn-dark text-white form group mt-3">Login</button>
+                                    <button name="login" id="login" class="d-flex m-auto justify-content-center btn btn-dark text-white form group mt-3 display-5">Login</button>
                                 </div>
                                 <div class="form-group d-flex justify-content-center mt-3 mb-2">
                                     Don't have an account? &nbsp

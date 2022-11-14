@@ -1,7 +1,4 @@
 <?php
-
-include './includes/header.php';
-
 if (!isset($_SESSION['username'])) {
     $_SESSION['count'] = 1;
 } else {
@@ -21,7 +18,7 @@ if (!isset($_SESSION['username'])) {
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Website Logo -->
-    <link rel="icon" type="image/x-icon" href="./image/kisanarea.png" />
+    <link rel="icon" type="image/x-icon" href="./image/cheers.jpg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <title>About | Cheers</title>
 
@@ -33,8 +30,8 @@ if (!isset($_SESSION['username'])) {
 
 
 <body>
-    <!-- <?php require './includes/menu.php'; ?> -->
-    <!-- <div class="about-section bg-dark"> -->
+     <?php require './includes/menu.php'; ?> 
+    
     <header class="bg-dark p-1">
         <div class="container my-4">
             <div class="text-center text-white">
@@ -45,7 +42,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <div>
-        <img src="./image/image (4).jpg" class="container d-flex img-fluid mb-5 mt-5" width="100%">
+        <img src="./admin/uploads/products/about.jpg" class="container d-flex img-fluid mb-5 mt-5" width="100%">
     </div>
 
     <section class="section mb-3 ">
@@ -55,26 +52,23 @@ if (!isset($_SESSION['username'])) {
                     <h2 class="mb-4">Who We Are ?</h2>
                 </div>
 
-                <!-- <h4>
+                <h4>
                     The Scenario
                 </h4>
                 <p class="">
-                    Today, there are more than 750 million farms globally, and the families of farmers operate them.
-                    With so many farmers engaged in the farming industry, we will get food. Still, it is different
-                    for the families dependent on farming for their livelihoods. To battle such competition in
-                    agriculture farmers can use online farming app.A farmers’ assistance web application (KisanArea)
-                    is one of the web applications that is built to help the farmer to ensure greater profitability
-                    through direct communication of farmer to supplier and farmer to farmer. The KisanArea helps to
-                    connect agricultural producers and provide them with shared knowledge. Spreading agricultural
-                    related information to farmers in the poorest communities made easier with the help of Kisan Area.
+                Cheers is the largest online store in Nepal that offers an extensive selection of genuine liquors and daily groceries. 
+                We provide free delivery right at your doorstep within 45 minutes, with distance coverage up to 6km outside Ring Road. 
+                Our delivery hours are from 10am to 10pm, and we are open 365 days.
                 </p>
                 <h4>Solution</h4>
-                <p class="text-justify">KisanArea provides an intelligent digital agriculture platform built to solve challenges faced by commercial and smallholder farmers. Kishan Area helps in transmitting information related to farming and make a connectivity between the experts and farmers. KisanArea also helps in scheduling the farming activities timely.</p>
+                <p class="text-justify">Cheers online store provides an extensive selection of genuine liquors.It is a store from where you can buy Raksi online in Nepal.
+                We have all kinds of Whiskey, Rum, Beer, Wine, Vodka, Brandy, and Gin.
+                We do have products of both national and international brands.</p>
 
-                <h4>Mission</h4>
+                <!-- <h4>Mission</h4>
                 <p>
                     The Mission of ‘Kisan Area’ is to use all available information and expertise to enable the automation of sustainable process in farming.
-                </p>
+                </p> -->
                 <h4>Objectives</h4>
                 <ul>
                     <li style=" list-style: disc; list-style-position: inside;">It helps to uplifts the socio-economic status of farmers.
@@ -88,13 +82,13 @@ if (!isset($_SESSION['username'])) {
                     </li>
 
                 </ul> -->
-                <!-- <p class="col-lg-MB-20">&nbsp;</p>
+                <p class="col-lg-MB-20">&nbsp;</p>
                 <p>
                   <a class="custom-btn primary big" href="#">Get in touch</a>
                 </p>
-              </div> -->
+              </div> 
 
-                <!-- <div class="col-lg-4 offset-lg-1">
+                 <div class="col-lg-4 offset-lg-1">
                   <div class="col-MB-30">
                     <img
                       class="d-block mx-auto img-fluid"
@@ -105,7 +99,7 @@ if (!isset($_SESSION['username'])) {
                   <div class="col-MB-30">
                     <img class="img-fluid" src="../img/slogan.png" alt="demo" />
                   </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -128,10 +122,10 @@ if (!isset($_SESSION['username'])) {
     <!-- <div class="text-center"><a class="btn btn-outline-dark mt-auto mb-2" href="./regform.php">Contact</a></div> -->
     <!-- </div>
             </div>
-        </div> -->
+        </div> 
         
-        <!-- <div class="col mb-3">
-            <div class="card h-100 m-auto w-50 justify-content-center border-secondary font">
+        <div class="col mb-3">
+          <div class="card h-100 m-auto w-50 justify-content-center border-secondary font">
                 <img src="./images/nischal.jpg" alt="Nischal" style="width:100%" class="image-fluid mt-3 d-flex justify-content-center m-auto">
                 <div class="container">
                     <h2>Nischal Dahal</h2>
@@ -141,9 +135,9 @@ if (!isset($_SESSION['username'])) {
                     <p class="my-1">+977-9805940865</p> 
     <div class="text-center"><a class="btn btn-outline-dark mt-auto mb-2" href="./regform.php">Contact</a></div> 
 
+    </div> 
     </div>
-    </div>
-    </div>
+   <-- </div>
     </div>  -->
 </body>
 <!-- <?php require './includes/footer.php'; ?> -->

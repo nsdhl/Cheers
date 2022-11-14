@@ -9,6 +9,8 @@ if (!isset($_SESSION['username'])) {
 // echo $_SESSION['count'];
 
 include './includes/dbconn.php';
+include('./includes/menu.php');
+
 ?>
 
 
@@ -43,13 +45,13 @@ include './includes/dbconn.php';
     <header class="bg-dark p-3">
         <div class="container my-5">
             <div class="text-center text-white font">
-                <h1 class="display-4 fw-bolder font">Category: Beer</h1>
+                <h1 class="display-4 fw-bolder font">Category: Rum</h1>
             </div>
         </div>
     </header>
     <!-- Section-->
     <?php
-    $featuredProducts = mysqli_query($mysqli, "SELECT * FROM products WHERE category = 'Beer'");
+    $featuredProducts = mysqli_query($mysqli, "SELECT * FROM products WHERE category = 'Rum'");
     ?>
     <?php include('includes/prod_disp.php'); ?>
 

@@ -1,10 +1,12 @@
 <?php
 include('./includes/dbconn.php');
+include('./includes/menu.php');
+
 ?>
 <html lang="en">
 
 <head>
-    <title>KisanArea | Search</title>
+    <title>Cheers | Search</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- <script src="./js/validate.js"></script> -->
     <!-- Website Logo -->

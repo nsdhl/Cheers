@@ -1,5 +1,5 @@
 <?php
-include './includes/header.php'; ?>
+include './includes/menu.php'; ?>
 
 <!Doctype html>
 <html lang="en">
@@ -62,12 +62,12 @@ include './includes/header.php'; ?>
             <div class="d-flex justify-content-center align-items-center mt-4">
 
                 <div class="col-5 d-flex justify-content-center m-auto">
-                    <div class="card mb-5 mt-5 text-black border" style="border-radius: 25px;">
+                    <div class="card mb-5 mt-5 text-black border mb-lg-auto" style="border-radius: 25px;">
                         <div class="card-body p-4 mt-1">
                             <span class="d-flex justify-content-end">
                                 <a href="./index.php" class="myA">Go Back</a>
                             </span>
-                            <img class="d-flex justify-content-center m-auto img-fluid" width="35%" src="./assets/images/logos/strumo.png" />
+                            <img class="d-flex justify-content-center m-auto img-fluid" width="35%" src="./admin/uploads/products/cheers.jpg" />
                             <h4 class="text-center mb-3">Signup</h4>
                             <form action="./registerdb.php" name="form" class="mx-1 mx-md-4" id="form" method="POST" enctype="multipart/form-data">
 
