@@ -1,5 +1,5 @@
 <?php
-include './includes/header.php'; ?>
+include './includes/menu.php'; ?>
 <!doctype html>
 <html lang="en">
 
@@ -52,16 +52,16 @@ include './includes/header.php'; ?>
 
 </head>
 
-<body class="font bg-dark">
+<body class="font bg-white">
 
     <!-- Main Section-->
     <!-- <section class="mt-0 overflow-hidden vh-100 d-flex justify-content-center align-items-center p-5 "> -->
-    <section class="">
+    <section class="bg-dark col-12">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center mt-4">
+            <div class="d-flex justify-content-center align-items-center">
                 <div class="col-5 d-flex justify-content-center m-auto">
-                    <div class="card mb-5 mt-5 wid text-black border w-100 mb-xxl-auto" style="border-radius: 20px;">
-                        <div class="card-body p-4 m-0">
+                    <div class="card mb-5  wid text-black border w-100 mb-xxl-auto" style="border-radius: 20px;">
+                        <div class="card-body p-3 m-0">
                             <span class="d-flex justify-content-end">
                                 <a href="./index.php" class="myA">Go Back</a>
                             </span>

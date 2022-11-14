@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css" />
   <!-- Theme style -->
   <link rel="stylesheet" href="css/adminlte.min.css" />
-  <link rel="icon" type="image/x-icon" href="../image/kisanarea.png" />
+  <link rel="icon" type="image/x-icon" href="./uploads/products/cheers.jpg" />
 
 </head>
 

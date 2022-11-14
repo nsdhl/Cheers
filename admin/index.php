@@ -24,7 +24,7 @@ if (isset($login)) {
     <link rel="stylesheet" href="../css/bootstrap.css">
     <!-- <script src="./js/validate.js"></script> -->
     <!-- Website Logo -->
-    <link rel="icon" type="image/x-icon" href="../image/kisanarea.png" />
+    <link rel="icon" type="image/x-icon" href="./admin/uploads/products/cheers.jpg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -34,7 +34,6 @@ if (isset($login)) {
 
 <body class="bg-dark font">
 
-    <section class="mt-5">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-5 d-flex justify-content-center m-auto">
@@ -50,8 +49,11 @@ if (isset($login)) {
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-5 d-flex justify-content-center m-auto">
                     <div class="card mb-5 p-4 py-0 text-black w-75 border-2 border-success" style="border-radius: 25px;">
-                        <div class="border-2 card-body px-0 py-0 rounded-2">
-                            <img src="../image/kisanarea.png" width="40%" alt="Cheers" class="center mt-3 ">
+                        <div class="border-2 card-body px-0 py-0 rounded-2" style="align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;">
+                            <img src="./uploads/products/cheers.jpg" style="align-self:center"width="40%" alt="Cheers" class="center mt-3 ">
                             <h4 class="text-success d-flex justify-content-center mt-2 mb-2 font">Admin</h4>
                             <form method="POST" class="mt-2">
                                 <fieldset>
@@ -66,7 +68,7 @@ if (isset($login)) {
                                     </div>
 
                                     <div class="form-group d-flex form-group justify-content-center">
-                                        <input name="login" type="submit" value="Login" class="d-flex justify-content-between btn navigation text-white btn-block">
+                                        <input name="login" type="submit" value="Login" class="d-flex justify-content-between btn text-white bg-dark btn-block">
                                     </div>
                                     <?php echo @$err; ?>
                                 </fieldset>

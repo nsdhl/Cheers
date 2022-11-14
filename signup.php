@@ -1,6 +1,3 @@
-<?php
-include './includes/menu.php'; ?>
-
 <!Doctype html>
 <html lang="en">
 
@@ -53,12 +50,14 @@ include './includes/menu.php'; ?>
 
 </head>
 
-<body class="font bg-dark">
+<body class="font bg-white">
 
+    <?php
+include './includes/menu.php'; ?>
     <!-- Main Section-->
     <!-- <section class="mt-0 overflow-hidden vh-100 d-flex justify-content-center align-items-center p-5 "> -->
-    <section class="">
-        <div class="container">
+    <section class="bg-dark">
+    <div class="container">
             <div class="d-flex justify-content-center align-items-center mt-4">
 
                 <div class="col-5 d-flex justify-content-center m-auto">
@@ -67,7 +66,7 @@ include './includes/menu.php'; ?>
                             <span class="d-flex justify-content-end">
                                 <a href="./index.php" class="myA">Go Back</a>
                             </span>
-                            <img class="d-flex justify-content-center m-auto img-fluid" width="35%" src="./admin/uploads/products/cheers.jpg" />
+                            <img class="d-flex justify-content-center m-auto img-fluid"  width="35%" src="./admin/uploads/products/cheers.jpg" />
                             <h4 class="text-center mb-3">Signup</h4>
                             <form action="./registerdb.php" name="form" class="mx-1 mx-md-4" id="form" method="POST" enctype="multipart/form-data">
 
