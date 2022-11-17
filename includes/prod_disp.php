@@ -32,7 +32,7 @@
             <!-- Products -->
             <?php while (
                 $featuredProd = mysqli_fetch_array($featuredProducts)
-            ) { ?>
+            ) { ?>  
                 <div class="col mb-5 zoom">
                     <div class="border-1 border-success card h-100 rounded-3">
                         <form action="" method="POST">

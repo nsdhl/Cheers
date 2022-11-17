@@ -8,9 +8,9 @@ session_start();
             <div class="container px-4 w-75">
                 <div class="navbar-brand">
                     <a href="./index.php"><img class="img-fluid" src="./admin/uploads/products/cheers.jpg" style="width: 25%;" href="./index.php" alt="Cheers"></a>
-x                </div>
+               </div>
             </div>
-            <div class="container w-75" style="font-family:'Lora', serif; font-size:14px;">
+            <div class="container w-75" style="font-family:'Lora', serif; font-size:17px; margin-left: 150px;">
                 <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

@@ -1,5 +1,7 @@
 <?php
 include('./includes/dbconn.php');
+include('./includes/menu.php');
+
 
 $productid = $_GET['pid'];
 $productDetail = mysqli_query($mysqli, "SELECT * FROM products WHERE productid = '$productid'");
