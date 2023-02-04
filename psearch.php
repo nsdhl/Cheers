@@ -1,6 +1,5 @@
 <?php
 include('./includes/dbconn.php');
-include('./includes/menu.php');
 
 ?>
 <html lang="en">
@@ -10,7 +9,7 @@ include('./includes/menu.php');
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- <script src="./js/validate.js"></script> -->
     <!-- Website Logo -->
-    <link rel="icon" type="image/x-icon" href="./image/kisanarea.png" />
+    <link rel="icon" type="image/x-icon" href="./image/cheers.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -20,13 +19,13 @@ include('./includes/menu.php');
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body class="bg-dark">
 
     <?php
-    require './includes/header.php';
+    require './includes/menu.php';
     ?>
 
-    <div class="col-md-12 container mb-5 p-lg-5">
+    <div class="col-md-12 bg-dark cntainer mb-5 p-lg-5">
         <h2 class="d-flex mt-5 text-light font">YOUR SEARCH IS HERE</h2>
         <div class="card mt-4">
             <div class="card-body">
@@ -46,7 +45,7 @@ include('./includes/menu.php');
                             $mysqli = mysqli_connect("localhost", "root", "", "cheers");
                             if (isset($_GET['search'])) {
                                 $filtervalues = $_GET['search'];
-                                $query = "SELECT * FROM products WHERE CONCAT(name) LIKE '%$filtervalues%' ";
+                                $query = "SELECT * FROM products WHERE CONCAT(name,category) LIKE '%$filtervalues%' ";
                                 $query_run = mysqli_query($mysqli, $query);
                                 if (mysqli_num_rows($query_run) > 0) {
                                     foreach ($query_run as $featuredProd) {

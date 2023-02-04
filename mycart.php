@@ -1,5 +1,4 @@
 <?php
-include("./includes/menu.php");
 include("./includes/dbconn.php");
 ?>
 <!DOCTYPE html>
@@ -21,17 +20,18 @@ include("./includes/dbconn.php");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="bg-dark">
+<?php require './includes/menu.php'; ?>
 
     <div class="container" style="font-family:'Loco',serif;">
         <div class="row">
-            <div class="col-lg-12 text-center text-dark border rounded  my-5">
+            <div class="col-lg-12 text-center text-white border rounded  my-5">
                 <h1>MY CART</h1>
             </div>
 
-            <div class="col-lg-9 font">
+            <div class="col-lg-9 font text-white">
                 <table class="table">
-                    <thead class="text-center">
+                    <thead class="text-center text-light">
                         <tr>
                             <th scope="col">Serial No.</th>
                             <th scope="col">Product Name</th>
@@ -41,7 +41,7 @@ include("./includes/dbconn.php");
                             <th scope="col"></th>
                         </tr>
                     </thead>
-                    <tbody class="text-center">
+                    <tbody class="text-center text-light">
                         <?php
                         $total = 0;
                         if (isset($_SESSION['cart'])) {
@@ -74,11 +74,11 @@ include("./includes/dbconn.php");
 
             <?php
             $uname = $_SESSION['username'];
-            $userDetail = mysqli_query($mysqli, "SELECT * FROM alldetails WHERE username = '$uname'");
+            $userDetail = mysqli_query($mysqli, "SELECT * FROM users WHERE username = '$uname'");
 
             while ($userinfo = mysqli_fetch_array($userDetail)) { ?>
                 <div class="col-lg-3 font">
-                    <div class="mb-5 border-2 bg-dark rounded p-4">
+                    <div class="mb-5 border-2 bg-light text-dark rounded p-4">
                         <h4>Grand Total:</h4>
                         <h5 class="text-right" id="gtotal"></h5>
                         <?php
@@ -87,19 +87,19 @@ include("./includes/dbconn.php");
                             <!--customer details for payment -->
 
                             <form action="./purchase.php" method="POST" class="my-0" enctype="multipart/form-data">
-                                <div class="form-group mt-3 mb-3">
+                                <div class="form-group mt-3 mb-3 text-dark">
                                     <b><label>Username: </label></b>
                                     <?php echo $userinfo['fullname']; ?><input type="hidden" name="fullname" id="fullname" value="<?php echo $userinfo['fullname']; ?>" placeholder="Full Name" class="form-control border-success" required>
                                 </div>
-                                <div class="form-group mt-3 mb-3">
+                                <div class="form-group mt-3 mb-3 text-dark">
                                     <b><label>Phone: </label></b>
                                     <?php echo $userinfo['phone'] ?><input type="hidden" name="phone_no" id="phone_no" value="<?php echo $userinfo['phone'] ?>" placeholder="Phone Number" class="form-control border-success" required>
                                 </div>
-                                <div class="form-group mt-3 mb-3">
+                                <div class="form-group mt-3 mb-3 text-dark">
                                     <b><label>Address: </label></b>
                                     <?php echo $userinfo['address'] ?><input type="hidden" name="address" id="address" value="<?php echo $userinfo['address'] ?>" placeholder="Address" class="form-control border-success" required>
                                 </div>
-                                <div class="form-group mt-3 mb-3">
+                                <div class="form-group mt-3 mb-3 text-dark">
                                     <input class="form-check-input border" checked type="radio" name="pay_mode" value="COD" id="flexRadioDefault1">
                                     <b><label class="form-check-label" for="flexRadioDefault1">Cash On Delivery
                                         </label></b>

@@ -50,19 +50,18 @@
 
 </head>
 
-<body class="font bg-white">
+<body class="font bg-dark">
 
-    <?php
-include './includes/menu.php'; ?>
+<?php include('./includes/menu.php');?>
+
     <!-- Main Section-->
     <!-- <section class="mt-0 overflow-hidden vh-100 d-flex justify-content-center align-items-center p-5 "> -->
-    <section class="bg-dark">
-    <div class="container">
-            <div class="d-flex justify-content-center align-items-center mt-4">
-
-                <div class="col-5 d-flex justify-content-center m-auto">
-                    <div class="card mb-5 mt-5 text-black border mb-lg-auto" style="border-radius: 25px;">
-                        <div class="card-body p-4 mt-1">
+    <section class="bg-dark col-12">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="col-5 d-flex justify-content-center m-auto mt-5 mb-5">
+                    <div class="card mt-5  wid text-black border w-100 mb-xxl-auto" style="border-radius: 20px;">
+                        <div class="card-body p-3">
                             <span class="d-flex justify-content-end">
                                 <a href="./index.php" class="myA">Go Back</a>
                             </span>
@@ -103,14 +102,14 @@ include './includes/menu.php'; ?>
                                 <div class=" text-white form-group mt-3">
                                     <input type="submit" value="Submit" name="login" id="login" class="btn btn-dark text-white d-flex justify-content-center m-auto" />
                                 </div>
-                        </div>
-                        </form>
+                            </form>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
+    <?php require './includes/footer.php'; ?> 
+
 </body>
 
 </html>

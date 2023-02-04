@@ -9,7 +9,6 @@ if (!isset($_SESSION['username'])) {
 // echo $_SESSION['count'];
 
 include './includes/dbconn.php';
-include('./includes/menu.php');
 
 ?>
 

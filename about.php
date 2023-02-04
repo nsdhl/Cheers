@@ -82,25 +82,9 @@ if (!isset($_SESSION['username'])) {
 
                     </li>
 
-                </ul> -->
-                <p class="col-lg-MB-20">&nbsp;</p>
-                <p>
-                  <a class="custom-btn primary big" href="#">Get in touch</a>
-                </p>
+                </ul>
+                
               </div> 
-
-                 <div class="col-lg-4 offset-lg-1">
-                  <div class="col-MB-30">
-                    <img
-                      class="d-block mx-auto img-fluid"
-                      src="../img/l2.png"
-                      alt="demo"
-                    />
-                  </div>
-                  <div class="col-MB-30">
-                    <img class="img-fluid" src="../img/slogan.png" alt="demo" />
-                  </div>
-                </div>
             </div>
         </div>
     </section>

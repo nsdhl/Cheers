@@ -3,7 +3,7 @@ session_start();
 ?>
 
 <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-white ">
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
         <div class="container-fluid">
             <div class="container px-4 w-75">
                 <div class="navbar-brand">

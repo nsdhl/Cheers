@@ -1,5 +1,3 @@
-<?php
-include './includes/menu.php'; ?>
 <!doctype html>
 <html lang="en">
 
@@ -30,7 +28,6 @@ include './includes/menu.php'; ?>
         <script src="js/scripts.js"></script>
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
-
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -52,16 +49,16 @@ include './includes/menu.php'; ?>
 
 </head>
 
-<body class="font bg-white">
+<body class="bg-dark">
+<?php require './includes/menu.php'; ?>
 
     <!-- Main Section-->
     <!-- <section class="mt-0 overflow-hidden vh-100 d-flex justify-content-center align-items-center p-5 "> -->
-    <section class="bg-dark col-12">
-        <div class="container">
+    <section class="bg-dark w-100">
             <div class="d-flex justify-content-center align-items-center">
-                <div class="col-5 d-flex justify-content-center m-auto">
-                    <div class="card mb-5  wid text-black border w-100 mb-xxl-auto" style="border-radius: 20px;">
-                        <div class="card-body p-3 m-0">
+                <div class="d-flex justify-content-center m-auto mt-5 mb-5">
+                    <div class="card mt-5 wid text-black border w-100 mb-xxl-auto" style="border-radius: 20px;">
+                        <div class="card-body mt-5 mb-5">
                             <span class="d-flex justify-content-end">
                                 <a href="./index.php" class="myA">Go Back</a>
                             </span>
@@ -103,6 +100,7 @@ include './includes/menu.php'; ?>
     <script src="./assets/js/vendor.bundle.js"></script>
     <!-- Theme JS -->
     <script src="./assets/js/theme.bundle.js"></script>
+    <?php require './includes/footer.php'; ?> 
 </body>
 
 </html>

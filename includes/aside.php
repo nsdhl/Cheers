@@ -92,6 +92,14 @@
                             </p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="./manageorder.php" class="d-block nav-link font">
+                            <i class="nav-icon fas fa-user-edit"></i>
+                            <p>
+                                Manage Order
+                            </p>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->

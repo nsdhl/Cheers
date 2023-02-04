@@ -1,6 +1,5 @@
 <?php
 include('./includes/dbconn.php');
-include('./includes/menu.php');
 
 
 $productid = $_GET['pid'];
@@ -41,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
 
-	<?php require 'includes/menu.php'; ?>
+	<?php require './includes/menu.php'; ?>
 
 	<?php while ($product = mysqli_fetch_array($productDetail)) { ?>
 
