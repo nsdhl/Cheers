@@ -74,7 +74,7 @@ include '../includes/dbconn.php';
                     <script>
                         function DeleteOrder(id) {
                             if (confirm("Do you want to delete this order?")) {
-                                alert("User Deleted Successfully")
+                                alert("Order Deleted Successfully")
                                 window.location.href = "deleteorder.php?id=" + id;
                             }
                         }
@@ -110,12 +110,11 @@ include '../includes/dbconn.php';
                             echo "<td>" . $row['order_id'] . "</td>";
                             echo "<td>" . $row['orderedby'] . "</td>";
                             echo "<td>" . $row['address'] . "</td>";
-
                             echo "<td>" . $row['phoneno'] . "</td>";
                             echo "<td>" . $row['payment_mode'] . "</td>";
                         ?>
 
-                            <td><a href="javascript:DeleteUser('<?php echo $row['id']; ?>')" class="btn btn-danger">Delete</a></td>
+                            <td><a href="javascript:DeleteOrder('<?php echo $row['id']; ?>')" class="btn btn-danger">Delete</a></td>
                         <?php
                             echo "</tr>";
                             $i++;
