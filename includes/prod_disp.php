@@ -23,9 +23,9 @@
                         ) {
                             echo $_GET['search'];
                         } ?>" placeholder="Search" name="search" class="d-inline form-control border-dark border-1 w-75">&nbsp;
-                        <button type="submit" class="btn btn-dark text-white">
+                        <!-- <button type="submit" class="btn btn-dark text-white">
                             <i class="fa fa-search"></i>
-                        </button>
+                        </button> -->
                     </div>
                 </form>
             </div>
