@@ -12,8 +12,14 @@ if (isset($_POST['username']) && $_POST['password']) {
     $age = $_POST['age'];
 
 }
+if($age>=18){
 $sql = "INSERT INTO users(fullname,email,address,phone,username,password,age)
     VALUES ('$fname','$email','$address','$phone','$username','$password','$age')";
+}
+else{
+    echo "<script>alert('Unable to create account!!! You are below 18.');
+    window.location.href='signup.php'</script>";
+}
 
 // $sql1 = "INSERT INTO users(username,password) VALUES ('$username','$password')";
 if ($mysqli->query($sql) > 0) {
