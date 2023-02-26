@@ -126,7 +126,6 @@ include '../includes/dbconn.php';
             </section>
         </section>
     </div>
-    </div>
 </body>
 <footer class="d-flex justify-content-center mt-5">
     <strong>Copyright &copy; 2022
