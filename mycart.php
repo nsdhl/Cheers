@@ -7,7 +7,7 @@ include("./includes/dbconn.php");
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KisanArea | Cart</title>
+    <title>Cheers | Cart</title>
     <link rel="icon" type="image/x-icon" href="./image/kisanarea.png">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
