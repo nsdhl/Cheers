@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 									<img class="card-img-top center" width="45%" style="border-radius: 25px;" src="uploads/products/<?php echo $product['photo']; ?>" alt="" />
 									<h1 class="text-center"><?php echo $product['name']; ?></h1>
 									<input type="hidden" id="pname" name="pname" value="<?php echo $product['name']; ?>">
-									<h4 class="text-center">Rs. <?php echo $product['price'] . ' ' . '/' . ' ' . $product['unit']; ?></h4>
+									<h4 class="text-center">Rs. <?php echo $product['price'] . ' ' ; ?></h4>
 									<div class="text-center Reveal-block-body">
 										<h5 class="mb-2"><?php echo $product['description']; ?></h5>
 									</div>
@@ -73,8 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 										<?php if ($product['stock'] == 0) {
 											echo '<h5 class="mb-2 text-danger">Out of Stock</h5>';
 										} else {
-											echo '<h5 class="mb-2 mt-2 text-success">Available stock: ' . $product['stock'] . " " .
-												$product['unit'];
+											echo '<h5 class="mb-2 mt-2 text-success">Available stock: ' . $product['stock'] ;
 											'</h5>';
 										}
 										?>
