@@ -57,9 +57,8 @@ if (!isset($_SESSION['username'])) {
                     The Scenario
                 </h4>
                 <p class="">
-                Cheers is the largest online store in Nepal that offers an extensive selection of genuine liquors and daily groceries. 
-                We provide free delivery right at your doorstep within 45 minutes, with distance coverage up to 6km outside Ring Road. 
-                Our delivery hours are from 10am to 10pm, and we are open 365 days.
+                Liquor Store, an online platform that enables customers to purchase liquor products conveniently and securely over the internet. The store offers a diverse range of alcoholic beverages, including beer, and wine. Customers can easily browse and search through the product selection, and add products to their cart for purchase. The website incorporates a secure payment gateway to process transactions, and provides customers with the option of either delivery or pick-up. Cheers Liquor Store provides a convenient solution for customers who may not have access to physical liquor stores, or who prefer to shop from the comfort of their own homes.
+
                 </p>
                 <h4>Solution</h4>
                 <p class="text-justify">Cheers online store provides an extensive selection of genuine liquors.It is a store from where you can buy Raksi online in Nepal.
@@ -72,13 +71,13 @@ if (!isset($_SESSION['username'])) {
                 </p> -->
                 <h4>Objectives</h4>
                 <ul>
-                    <li style=" list-style: disc; list-style-position: inside;">It helps to uplifts the socio-economic status of farmers.
+                    <li style=" list-style: disc; list-style-position: inside;">To develop the user friendly interface.
                     </li>
-                    <li style="list-style: disc; list-style-position: inside;">It helps to remove the broker system i.e. middlemen.
+                    <li style="list-style: disc; list-style-position: inside;">To offer a wider selection of the products.
                     </li>
-                    <li style="list-style: disc; list-style-position: inside;">It helps farmers to be modernize about the marketing and trading.
+                    <li style="list-style: disc; list-style-position: inside;">To provide secure payment processing.
                     </li>
-                    <li style="list-style: disc; list-style-position: inside;">It allows farmers to make smart decisions about farming.
+                    <li style="list-style: disc; list-style-position: inside;">To provide reliable delivery options.
 
                     </li>
 
