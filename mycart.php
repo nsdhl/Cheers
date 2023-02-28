@@ -185,7 +185,7 @@ include("./includes/dbconn.php");
 
                 var checkout = new KhaltiCheckout(config);
                 checkout.show({
-                    amount: gt
+                    amount: 1000
                 })
             }
         }

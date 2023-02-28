@@ -4,11 +4,11 @@ session_start();
 
 extract($_POST);
 if (isset($update)) {
-	mysqli_query($mysqli, "UPDATE products SET price='$price',unit='$unit',stock='$stock', description='$description' where productid='" . $_GET['pid'] . "'");
+	mysqli_query($mysqli, "UPDATE products SET price='$price',stock='$stock', description='$description' where productid='" . $_GET['pid'] . "'");
 	$err = "<font color='blue'>Product updated </font>";
 	echo '<script>
 	alert("Product Updated");
-	window.location.href="manageProd.php";
+	window.location.href="manageprod.php";
 	</script>';
 }
 
@@ -90,7 +90,7 @@ include '../includes/aside.php'; ?>
 						<input type="text" name="price" value="<?php echo $res['price']; ?>" class="mt-2 border-secondary form-control" />
 					</div>
 
-					<div class="form-group mb-3">
+					<!-- <div class="form-group mb-3">
 						<b>Unit</b>
 						<select name="unit" required autocomplete="off" class="form-control border-1 border-secondary combobox" id="unit">
 							<option value="Kg">Kg</option>
@@ -99,7 +99,7 @@ include '../includes/aside.php'; ?>
 							<option value="Mutha">Mutha</option>
 							<option value="Bunch">Bunch</option>
 						</select>
-					</div>
+					</div> -->
 
 					<div class="form-group mb-3">
 						<b>Enter Available Stock</b>
